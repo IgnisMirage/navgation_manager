@@ -1,0 +1,7 @@
+:root { font-family: sans-serif; --bar: #263238; --btn: #455a64; --accent: #1e88e5; --danger: #e53935; }
+html, body, #app { margin: 0; height: 100%; overflow: hidden; }
+button, label.btn { padding: 10px 16px; border: 0; border-radius: 6px; background: var(--btn); color: #fff; font-size: 15px; cursor: pointer; }
+button.active { background: var(--accent); }
+button.danger { background: var(--danger); }
+button:disabled { opacity: 0.4; }
+input[type="file"] { display: none; }
